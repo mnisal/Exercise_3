@@ -1,0 +1,25 @@
+<!-- EXERCISE 3 - DESIGN THE CARD -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card_Design</title>
+    <link rel="stylesheet" href="exercise_3.css">
+ </head>
+ <body>
+    <div class="outer">
+      <img src="img1.png" width="400" height="300" alt="Coffee1">
+      <span class="txt0">Beverages</span>
+      <span class="txt0"> Iced Coffee</span>
+      <h2 class="txt1">Iced Latte</h2>
+      <ol>INGREDIENTS:
+         <li type="i">3 tablespoons warm water</li>
+         <li type="i">2 teaspoons instant coffee granules</li>
+         <li type="i">1 teaspoon sugar</li>
+         <li type="i">1 cup ice, or as needed</li>
+         <li type="i">6 fluid ounces cold milk</li>
+      </ol>
+      <span class="rm"><a target="_blank" href="https://www.allrecipes.com/recipe/21667/easy-iced-coffee/">Read more for recipe</a></span>
+ </body>
+ </html>
