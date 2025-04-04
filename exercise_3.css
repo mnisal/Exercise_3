@@ -1,0 +1,74 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+*{
+    font-family: Dancing Script;
+}   
+/* Outer of the card */
+.outer{
+    display: inlinw;
+    background-color: rgb(255, 247, 236);
+    border: 1px solid rgb(228, 145, 0);
+    border-radius: 40px;
+    position: relative;
+    width: 410px;
+    height: 600px;
+    margin: 10px;
+    padding: 4px;
+    box-shadow: 5px 5px 15px 5px rgb(59, 33, 0);
+}
+/* shape the image */
+img{
+    /* position: relative;
+    top: 0px; */
+    border: 1px solid rgb(113, 94, 3);
+    border-radius: 10% 10%;
+    margin: 4px;
+    /* width: 400px;
+    height: 300px; */
+}
+/* Text below */
+.txt0{
+    background-color: antiquewhite;
+    border: 2px solid rgb(244, 205, 154);
+    color: rgb(127, 72, 0);
+    border-radius: 12px 12px;
+    margin: 2px;
+    padding: 2px;
+}
+.txt1{
+    color: rgb(154, 87, 1);
+}
+div ol{
+    margin: 4px;
+    color: rgb(140, 79, 0);
+    background-color: rgb(255, 223, 181);
+    border-radius: 40px 10px;
+}
+.rm{
+    position: relative;
+    top: 30px;
+    left: 25%;
+    background-color: antiquewhite;
+    border: 2px solid rgb(244, 205, 154);
+    color: rgb(127, 72, 0);
+    border-radius: 12px 12px;
+    margin: 10px;
+    padding: 4px;
+}
+/* Link within the button */
+.rm a {
+    color: rgb(154, 87, 1);
+    text-decoration: none;
+}
+a:hover {
+    color:#ffe7cd; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+.rm:hover{
+    background-color: rgb(78, 44, 0);
+    border: 2px solid rgb(255, 236, 211);
+    color: rgb(255, 250, 244);
+    box-shadow: 5px 5px 17px 5px rgb(96, 54, 0);
+}
+
